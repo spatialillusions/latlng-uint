@@ -1,9 +1,9 @@
-# binary-latlng
-Functions for converting Latitude/Longitude to/from a fixed number of bits
+# latlng-uint
+Functions for converting Latitude/Longitude to/from a unsigned integer with a specified precision.
 
 ## Introduction
 
-This library is for converting LatLngs to numbers representing them as unsigned integers with a specific precision. In this way LatLngs can be stored as binary using as few bits as possible.
+This library is for reading/writing LatLngs to numbers representing them as unsigned integers with a specific precision. In this way LatLngs can be stored as binary using as few bits as possible.
 
 This way of storing LatLngs is described by **National Geospatial-Intelligence Agency (NGA)** in the document called **Time-Space-Position Information (TSPI)** NGA.STND.0019_2.0.
 
