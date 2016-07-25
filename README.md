@@ -29,5 +29,8 @@ returns
 
 `[53.80999655961908,-2.0999982476232333]`
 
+## Limitations
+The NGA standard only contains one (1) example, so things could be way off here. If anyone knows of more examples, please let me know.
+
 ## License and Contact
 The library is developed by Måns Beckman, www.spatialillusions.com, and is provided under a MIT License.
