@@ -1,0 +1,11 @@
+{
+  "name": "latlng-uint",
+  "version": "0.1.0",
+  "description": "Converting between latlng decimal degrees and unsigned integers",
+  "license" : "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/spatialillusions/latlng-uint.git"
+  },
+  "dependencies": {}
+}
