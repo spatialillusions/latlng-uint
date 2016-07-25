@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Tests of LatLng to uInt</title>
+	<script src="../dist/latlng-uint.js">
+	</script>
+</head>
+<body>
+<h1>Tests</h1>
+<code>uint2latlng([2507727, 8486476], [23, 24])</code><br>
+Correct: <code>N53.809996° W2.099999°</code><br>
+Converted: <code>
+<script>
+'use strict';
+document.write(uint2latlng([2507727, 8486476], [23, 24]))
+
+</script>
+</code>
+<br>
+<br>
+<code>latlng2uint([53.80999655961908,-2.0999982476232333], [23, 24])</code><br>
+Correct: <code>2507727,8486476</code><br>
+Converted: <code>
+<script>
+'use strict';
+document.write(latlng2uint([53.80999655961908,-2.0999982476232333], [23, 24]))
+
+</script>
+</code>
+</body>
+</html>
