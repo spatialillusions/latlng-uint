@@ -8,25 +8,51 @@
 </head>
 <body>
 <h1>Tests</h1>
+<h2>This is taken from the standard</h2>
 <code>uint2latlng([2507727, 8486476], [23, 24])</code><br>
-Correct: <code>N53.809996° W2.099999°</code><br>
+In standard as: <code>53°48'35.987"N 2°5'59.995"W</code><br>
 Converted: <code>
 <script>
 'use strict';
 document.write(uint2latlng([2507727, 8486476], [23, 24]))
-
 </script>
 </code>
 <br>
 <br>
+
+
 <code>latlng2uint([53.80999655961908,-2.0999982476232333], [23, 24])</code><br>
-Correct: <code>2507727,8486476</code><br>
+In standard as: <code>2507727,8486476</code><br>
 Converted: <code>
 <script>
 'use strict';
 document.write(latlng2uint([53.80999655961908,-2.0999982476232333], [23, 24]))
-
 </script>
 </code>
+<br>
+<br>
+
+<h2>This is to try out negative values</h2>
+<code>latlng2uint([-53.80999655961908,2.0999982476232333], [23, 24])</code><br>
+Converted: <code>
+<script>
+'use strict';
+document.write(latlng2uint([-53.80999655961908,2.0999982476232333], [23, 24]))
+</script>
+</code>
+<br>
+<br>
+
+<code>uint2latlng([5880881,97866], [23, 24])</code><br>
+Converted: <code>
+<script>
+'use strict';
+document.write(uint2latlng(latlng2uint([-53.80999655961908,2.0999982476232333], [23, 24]), [23, 24]))
+</script>
+</code>
+<br>
+<br>
+
+
 </body>
 </html>
