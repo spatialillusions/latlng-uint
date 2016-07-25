@@ -1,6 +1,6 @@
 {
   "name": "latlng-uint",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Converting between latlng decimal degrees and unsigned integers",
   "license" : "MIT",
   "repository": {
